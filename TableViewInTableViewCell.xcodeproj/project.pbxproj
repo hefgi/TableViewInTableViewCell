@@ -10,18 +10,23 @@
 		24A944EE187DB4F400362C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A944ED187DB4F400362C51 /* Foundation.framework */; };
 		24A944F0187DB4F400362C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A944EF187DB4F400362C51 /* CoreGraphics.framework */; };
 		24A944F2187DB4F400362C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A944F1187DB4F400362C51 /* UIKit.framework */; };
-		24A944F8187DB4F400362C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A944F6187DB4F400362C51 /* InfoPlist.strings */; };
-		24A944FA187DB4F400362C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A944F9187DB4F400362C51 /* main.m */; };
-		24A944FE187DB4F400362C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A944FD187DB4F400362C51 /* AppDelegate.m */; };
-		24A94501187DB4F400362C51 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A944FF187DB4F400362C51 /* Main_iPhone.storyboard */; };
-		24A94504187DB4F400362C51 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A94502187DB4F400362C51 /* Main_iPad.storyboard */; };
-		24A94507187DB4F400362C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A94506187DB4F400362C51 /* ViewController.m */; };
-		24A94509187DB4F400362C51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A94508187DB4F400362C51 /* Images.xcassets */; };
 		24A94510187DB4F400362C51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A9450F187DB4F400362C51 /* XCTest.framework */; };
 		24A94511187DB4F400362C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A944ED187DB4F400362C51 /* Foundation.framework */; };
 		24A94512187DB4F400362C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A944F1187DB4F400362C51 /* UIKit.framework */; };
-		24A9451A187DB4F400362C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A94518187DB4F400362C51 /* InfoPlist.strings */; };
-		24A9451C187DB4F400362C51 /* TableViewInsertDeleteRowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A9451B187DB4F400362C51 /* TableViewInsertDeleteRowTests.m */; };
+		24A9454C187EEE1400362C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A94534187EEE1400362C51 /* AppDelegate.m */; };
+		24A9454D187EEE1400362C51 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A94535187EEE1400362C51 /* Main_iPad.storyboard */; };
+		24A9454E187EEE1400362C51 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A94537187EEE1400362C51 /* Main_iPhone.storyboard */; };
+		24A9454F187EEE1400362C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A94539187EEE1400362C51 /* InfoPlist.strings */; };
+		24A94550187EEE1400362C51 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A9453B187EEE1400362C51 /* google.png */; };
+		24A94551187EEE1400362C51 /* HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A9453D187EEE1400362C51 /* HeaderCell.m */; };
+		24A94552187EEE1400362C51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A9453E187EEE1400362C51 /* Images.xcassets */; };
+		24A94553187EEE1400362C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A9453F187EEE1400362C51 /* main.m */; };
+		24A94555187EEE1400362C51 /* SongsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A94542187EEE1400362C51 /* SongsListCell.m */; };
+		24A94556187EEE1400362C51 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A94544187EEE1400362C51 /* TableViewController.m */; };
+		24A94557187EEE1400362C51 /* TableViewInTableViewCell-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24A94545187EEE1400362C51 /* TableViewInTableViewCell-Info.plist */; };
+		24A94558187EEE1400362C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A94548187EEE1400362C51 /* InfoPlist.strings */; };
+		24A94559187EEE1400362C51 /* TableViewInsertDeleteRowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A9454A187EEE1400362C51 /* TableViewInsertDeleteRowTests.m */; };
+		24A9455A187EEE1400362C51 /* TableViewInTableViewCellTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24A9454B187EEE1400362C51 /* TableViewInTableViewCellTests-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24A944EA187DB4F400362C51 /* TableViewInsertDeleteRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewInsertDeleteRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A944EA187DB4F400362C51 /* TableViewInTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewInTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A944ED187DB4F400362C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24A944EF187DB4F400362C51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		24A944F1187DB4F400362C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		24A944F5187DB4F400362C51 /* TableViewInsertDeleteRow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewInsertDeleteRow-Info.plist"; sourceTree = "<group>"; };
-		24A944F7187DB4F400362C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24A944F9187DB4F400362C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24A944FB187DB4F400362C51 /* TableViewInsertDeleteRow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewInsertDeleteRow-Prefix.pch"; sourceTree = "<group>"; };
-		24A944FC187DB4F400362C51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		24A944FD187DB4F400362C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24A94500187DB4F400362C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		24A94503187DB4F400362C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		24A94505187DB4F400362C51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24A94506187DB4F400362C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24A94508187DB4F400362C51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		24A9450E187DB4F400362C51 /* TableViewInsertDeleteRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewInsertDeleteRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A9450E187DB4F400362C51 /* TableViewInTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewInTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A9450F187DB4F400362C51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		24A94517187DB4F400362C51 /* TableViewInsertDeleteRowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewInsertDeleteRowTests-Info.plist"; sourceTree = "<group>"; };
-		24A94519187DB4F400362C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24A9451B187DB4F400362C51 /* TableViewInsertDeleteRowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewInsertDeleteRowTests.m; sourceTree = "<group>"; };
+		24A94533187EEE1400362C51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24A94534187EEE1400362C51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24A94536187EEE1400362C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		24A94538187EEE1400362C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		24A9453A187EEE1400362C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24A9453B187EEE1400362C51 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		24A9453C187EEE1400362C51 /* HeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCell.h; sourceTree = "<group>"; };
+		24A9453D187EEE1400362C51 /* HeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCell.m; sourceTree = "<group>"; };
+		24A9453E187EEE1400362C51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24A9453F187EEE1400362C51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A94541187EEE1400362C51 /* SongsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsListCell.h; sourceTree = "<group>"; };
+		24A94542187EEE1400362C51 /* SongsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsListCell.m; sourceTree = "<group>"; };
+		24A94543187EEE1400362C51 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		24A94544187EEE1400362C51 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		24A94545187EEE1400362C51 /* TableViewInTableViewCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TableViewInTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		24A94546187EEE1400362C51 /* TableViewInTableViewCell-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableViewInTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
+		24A94549187EEE1400362C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24A9454A187EEE1400362C51 /* TableViewInsertDeleteRowTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewInsertDeleteRowTests.m; sourceTree = "<group>"; };
+		24A9454B187EEE1400362C51 /* TableViewInTableViewCellTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TableViewInTableViewCellTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +94,8 @@
 		24A944E1187DB4F400362C51 = {
 			isa = PBXGroup;
 			children = (
-				24A944F3187DB4F400362C51 /* TableViewInsertDeleteRow */,
-				24A94515187DB4F400362C51 /* TableViewInsertDeleteRowTests */,
+				24A94532187EEE1400362C51 /* TableViewInTableViewCell */,
+				24A94547187EEE1400362C51 /* TableViewInTableViewCellTests */,
 				24A944EC187DB4F400362C51 /* Frameworks */,
 				24A944EB187DB4F400362C51 /* Products */,
 			);
@@ -94,8 +104,8 @@
 		24A944EB187DB4F400362C51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24A944EA187DB4F400362C51 /* TableViewInsertDeleteRow.app */,
-				24A9450E187DB4F400362C51 /* TableViewInsertDeleteRowTests.xctest */,
+				24A944EA187DB4F400362C51 /* TableViewInTableViewCell.app */,
+				24A9450E187DB4F400362C51 /* TableViewInTableViewCellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,46 +121,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24A944F3187DB4F400362C51 /* TableViewInsertDeleteRow */ = {
+		24A94532187EEE1400362C51 /* TableViewInTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				24A944FC187DB4F400362C51 /* AppDelegate.h */,
-				24A944FD187DB4F400362C51 /* AppDelegate.m */,
-				24A944FF187DB4F400362C51 /* Main_iPhone.storyboard */,
-				24A94502187DB4F400362C51 /* Main_iPad.storyboard */,
-				24A94505187DB4F400362C51 /* ViewController.h */,
-				24A94506187DB4F400362C51 /* ViewController.m */,
-				24A94508187DB4F400362C51 /* Images.xcassets */,
-				24A944F4187DB4F400362C51 /* Supporting Files */,
+				24A9455B187EEE2D00362C51 /* Supporting Files */,
+				24A94533187EEE1400362C51 /* AppDelegate.h */,
+				24A94534187EEE1400362C51 /* AppDelegate.m */,
+				24A94535187EEE1400362C51 /* Main_iPad.storyboard */,
+				24A94537187EEE1400362C51 /* Main_iPhone.storyboard */,
+				24A9453B187EEE1400362C51 /* google.png */,
+				24A9453C187EEE1400362C51 /* HeaderCell.h */,
+				24A9453D187EEE1400362C51 /* HeaderCell.m */,
+				24A9453E187EEE1400362C51 /* Images.xcassets */,
+				24A94541187EEE1400362C51 /* SongsListCell.h */,
+				24A94542187EEE1400362C51 /* SongsListCell.m */,
+				24A94543187EEE1400362C51 /* TableViewController.h */,
+				24A94544187EEE1400362C51 /* TableViewController.m */,
 			);
-			path = TableViewInsertDeleteRow;
+			path = TableViewInTableViewCell;
 			sourceTree = "<group>";
 		};
-		24A944F4187DB4F400362C51 /* Supporting Files */ = {
+		24A94547187EEE1400362C51 /* TableViewInTableViewCellTests */ = {
 			isa = PBXGroup;
 			children = (
-				24A944F5187DB4F400362C51 /* TableViewInsertDeleteRow-Info.plist */,
-				24A944F6187DB4F400362C51 /* InfoPlist.strings */,
-				24A944F9187DB4F400362C51 /* main.m */,
-				24A944FB187DB4F400362C51 /* TableViewInsertDeleteRow-Prefix.pch */,
+				24A94548187EEE1400362C51 /* InfoPlist.strings */,
+				24A9454A187EEE1400362C51 /* TableViewInsertDeleteRowTests.m */,
+				24A9454B187EEE1400362C51 /* TableViewInTableViewCellTests-Info.plist */,
 			);
-			name = "Supporting Files";
+			path = TableViewInTableViewCellTests;
 			sourceTree = "<group>";
 		};
-		24A94515187DB4F400362C51 /* TableViewInsertDeleteRowTests */ = {
+		24A9455B187EEE2D00362C51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24A9451B187DB4F400362C51 /* TableViewInsertDeleteRowTests.m */,
-				24A94516187DB4F400362C51 /* Supporting Files */,
-			);
-			path = TableViewInsertDeleteRowTests;
-			sourceTree = "<group>";
-		};
-		24A94516187DB4F400362C51 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24A94517187DB4F400362C51 /* TableViewInsertDeleteRowTests-Info.plist */,
-				24A94518187DB4F400362C51 /* InfoPlist.strings */,
+				24A94539187EEE1400362C51 /* InfoPlist.strings */,
+				24A9453F187EEE1400362C51 /* main.m */,
+				24A94545187EEE1400362C51 /* TableViewInTableViewCell-Info.plist */,
+				24A94546187EEE1400362C51 /* TableViewInTableViewCell-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24A944E9187DB4F400362C51 /* TableViewInsertDeleteRow */ = {
+		24A944E9187DB4F400362C51 /* TableViewInTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24A9451F187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInsertDeleteRow" */;
+			buildConfigurationList = 24A9451F187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInTableViewCell" */;
 			buildPhases = (
 				24A944E6187DB4F400362C51 /* Sources */,
 				24A944E7187DB4F400362C51 /* Frameworks */,
@@ -170,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = TableViewInsertDeleteRow;
+			name = TableViewInTableViewCell;
 			productName = TableViewInsertDeleteRow;
-			productReference = 24A944EA187DB4F400362C51 /* TableViewInsertDeleteRow.app */;
+			productReference = 24A944EA187DB4F400362C51 /* TableViewInTableViewCell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24A9450D187DB4F400362C51 /* TableViewInsertDeleteRowTests */ = {
+		24A9450D187DB4F400362C51 /* TableViewInTableViewCellTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24A94522187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInsertDeleteRowTests" */;
+			buildConfigurationList = 24A94522187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInTableViewCellTests" */;
 			buildPhases = (
 				24A9450A187DB4F400362C51 /* Sources */,
 				24A9450B187DB4F400362C51 /* Frameworks */,
@@ -188,9 +195,9 @@
 			dependencies = (
 				24A94514187DB4F400362C51 /* PBXTargetDependency */,
 			);
-			name = TableViewInsertDeleteRowTests;
+			name = TableViewInTableViewCellTests;
 			productName = TableViewInsertDeleteRowTests;
-			productReference = 24A9450E187DB4F400362C51 /* TableViewInsertDeleteRowTests.xctest */;
+			productReference = 24A9450E187DB4F400362C51 /* TableViewInTableViewCellTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24A944E5187DB4F400362C51 /* Build configuration list for PBXProject "TableViewInsertDeleteRow" */;
+			buildConfigurationList = 24A944E5187DB4F400362C51 /* Build configuration list for PBXProject "TableViewInTableViewCell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24A944E9187DB4F400362C51 /* TableViewInsertDeleteRow */,
-				24A9450D187DB4F400362C51 /* TableViewInsertDeleteRowTests */,
+				24A944E9187DB4F400362C51 /* TableViewInTableViewCell */,
+				24A9450D187DB4F400362C51 /* TableViewInTableViewCellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,10 +238,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A94504187DB4F400362C51 /* Main_iPad.storyboard in Resources */,
-				24A94509187DB4F400362C51 /* Images.xcassets in Resources */,
-				24A94501187DB4F400362C51 /* Main_iPhone.storyboard in Resources */,
-				24A944F8187DB4F400362C51 /* InfoPlist.strings in Resources */,
+				24A9454E187EEE1400362C51 /* Main_iPhone.storyboard in Resources */,
+				24A94558187EEE1400362C51 /* InfoPlist.strings in Resources */,
+				24A94552187EEE1400362C51 /* Images.xcassets in Resources */,
+				24A9454F187EEE1400362C51 /* InfoPlist.strings in Resources */,
+				24A9455A187EEE1400362C51 /* TableViewInTableViewCellTests-Info.plist in Resources */,
+				24A94557187EEE1400362C51 /* TableViewInTableViewCell-Info.plist in Resources */,
+				24A94550187EEE1400362C51 /* google.png in Resources */,
+				24A9454D187EEE1400362C51 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A9451A187DB4F400362C51 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A94507187DB4F400362C51 /* ViewController.m in Sources */,
-				24A944FE187DB4F400362C51 /* AppDelegate.m in Sources */,
-				24A944FA187DB4F400362C51 /* main.m in Sources */,
+				24A94555187EEE1400362C51 /* SongsListCell.m in Sources */,
+				24A94551187EEE1400362C51 /* HeaderCell.m in Sources */,
+				24A94559187EEE1400362C51 /* TableViewInsertDeleteRowTests.m in Sources */,
+				24A94553187EEE1400362C51 /* main.m in Sources */,
+				24A94556187EEE1400362C51 /* TableViewController.m in Sources */,
+				24A9454C187EEE1400362C51 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A9451C187DB4F400362C51 /* TableViewInsertDeleteRowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,40 +284,40 @@
 /* Begin PBXTargetDependency section */
 		24A94514187DB4F400362C51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24A944E9187DB4F400362C51 /* TableViewInsertDeleteRow */;
+			target = 24A944E9187DB4F400362C51 /* TableViewInTableViewCell */;
 			targetProxy = 24A94513187DB4F400362C51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		24A944F6187DB4F400362C51 /* InfoPlist.strings */ = {
+		24A94535187EEE1400362C51 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				24A944F7187DB4F400362C51 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		24A944FF187DB4F400362C51 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24A94500187DB4F400362C51 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		24A94502187DB4F400362C51 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24A94503187DB4F400362C51 /* Base */,
+				24A94536187EEE1400362C51 /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		24A94518187DB4F400362C51 /* InfoPlist.strings */ = {
+		24A94537187EEE1400362C51 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				24A94519187DB4F400362C51 /* en */,
+				24A94538187EEE1400362C51 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		24A94539187EEE1400362C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A9453A187EEE1400362C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24A94548187EEE1400362C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A94549187EEE1400362C51 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -393,9 +405,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableViewInsertDeleteRow/TableViewInsertDeleteRow-Prefix.pch";
-				INFOPLIST_FILE = "TableViewInsertDeleteRow/TableViewInsertDeleteRow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TableViewInsertDeleteRow/TableViewInTableViewCell-Prefix.pch";
+				INFOPLIST_FILE = "TableViewInsertDeleteRow/TableViewInTableViewCell-Info.plist";
+				PRODUCT_NAME = TableViewInTableViewCell;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,9 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableViewInsertDeleteRow/TableViewInsertDeleteRow-Prefix.pch";
-				INFOPLIST_FILE = "TableViewInsertDeleteRow/TableViewInsertDeleteRow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TableViewInsertDeleteRow/TableViewInTableViewCell-Prefix.pch";
+				INFOPLIST_FILE = "TableViewInsertDeleteRow/TableViewInTableViewCell-Info.plist";
+				PRODUCT_NAME = TableViewInTableViewCell;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,8 +443,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TableViewInsertDeleteRowTests/TableViewInsertDeleteRowTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TableViewInsertDeleteRowTests/TableViewInTableViewCellTests-Info.plist";
+				PRODUCT_NAME = TableViewInTableViewCellTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,8 +462,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewInsertDeleteRow/TableViewInsertDeleteRow-Prefix.pch";
-				INFOPLIST_FILE = "TableViewInsertDeleteRowTests/TableViewInsertDeleteRowTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TableViewInsertDeleteRowTests/TableViewInTableViewCellTests-Info.plist";
+				PRODUCT_NAME = TableViewInTableViewCellTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -458,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24A944E5187DB4F400362C51 /* Build configuration list for PBXProject "TableViewInsertDeleteRow" */ = {
+		24A944E5187DB4F400362C51 /* Build configuration list for PBXProject "TableViewInTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24A9451D187DB4F400362C51 /* Debug */,
@@ -467,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24A9451F187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInsertDeleteRow" */ = {
+		24A9451F187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24A94520187DB4F400362C51 /* Debug */,
@@ -475,7 +489,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		24A94522187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInsertDeleteRowTests" */ = {
+		24A94522187DB4F400362C51 /* Build configuration list for PBXNativeTarget "TableViewInTableViewCellTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24A94523187DB4F400362C51 /* Debug */,

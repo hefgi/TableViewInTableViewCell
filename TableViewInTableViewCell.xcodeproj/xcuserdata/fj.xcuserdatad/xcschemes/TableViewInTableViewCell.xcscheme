@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24A944E9187DB4F400362C51"
                BuildableName = "TableViewInsertDeleteRow.app"
-               BlueprintName = "TableViewInsertDeleteRow"
-               ReferencedContainer = "container:TableViewInsertDeleteRow.xcodeproj">
+               BlueprintName = "TableViewInTableViewCell"
+               ReferencedContainer = "container:TableViewInTableViewCell.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24A9450D187DB4F400362C51"
                BuildableName = "TableViewInsertDeleteRowTests.xctest"
-               BlueprintName = "TableViewInsertDeleteRowTests"
-               ReferencedContainer = "container:TableViewInsertDeleteRow.xcodeproj">
+               BlueprintName = "TableViewInTableViewCellTests"
+               ReferencedContainer = "container:TableViewInTableViewCell.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24A944E9187DB4F400362C51"
             BuildableName = "TableViewInsertDeleteRow.app"
-            BlueprintName = "TableViewInsertDeleteRow"
-            ReferencedContainer = "container:TableViewInsertDeleteRow.xcodeproj">
+            BlueprintName = "TableViewInTableViewCell"
+            ReferencedContainer = "container:TableViewInTableViewCell.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24A944E9187DB4F400362C51"
             BuildableName = "TableViewInsertDeleteRow.app"
-            BlueprintName = "TableViewInsertDeleteRow"
-            ReferencedContainer = "container:TableViewInsertDeleteRow.xcodeproj">
+            BlueprintName = "TableViewInTableViewCell"
+            ReferencedContainer = "container:TableViewInTableViewCell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "24A944E9187DB4F400362C51"
             BuildableName = "TableViewInsertDeleteRow.app"
-            BlueprintName = "TableViewInsertDeleteRow"
-            ReferencedContainer = "container:TableViewInsertDeleteRow.xcodeproj">
+            BlueprintName = "TableViewInTableViewCell"
+            ReferencedContainer = "container:TableViewInTableViewCell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

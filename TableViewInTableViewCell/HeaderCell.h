@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeaderCell.h
 //  TableViewInsertDeleteRow
 //
 //  Created by Alcaraz François-Julien on 1/8/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HeaderCell : UITableViewCell
+
+@property BOOL isListOpen;
 
 @end
